@@ -1,0 +1,16 @@
+SAMPLE: [
+          "Selected_inhouse_WT"
+        ]
+
+LIFTOFF:
+  chroms: "data/chroms.txt"
+
+GENOME:
+  query_genome: "data/TAIR10_chr15.fasta"
+  target_genome: "data/Col-HiFi.fasta"
+  query_genome_name: "TAIR10"
+  target_genome_name: "Col-HiFi"
+  target_fai: "data/Col-HiFi.fasta.fai"
+TSV:
+  binSize: 100000
+  binName: "100kb"
