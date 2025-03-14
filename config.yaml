@@ -1,16 +1,22 @@
 SAMPLE: [
-          "Selected_inhouse_WT"
+          "Selected_inhouse_WT",
+          "recq4_2021",
+          "WT_pollen_comapper",
+          "WT_1000f2_comapper",
+          "recq4_pollen_comapper",
+          "recq4_1000f2_comapper",
+          "wt-male1-4"
         ]
 
 LIFTOFF:
-  chroms: "data/chroms.txt"
+  chroms: "/datasets/data_3/genome_assemblies/liftoff_dat/chroms.txt"
 
 GENOME:
-  query_genome: "data/TAIR10_chr15.fasta"
-  target_genome: "data/Col-HiFi.fasta"
+  query_genome: "/datasets/data_3/genome_assemblies/liftoff_dat/TAIR10_chr15.fasta"
+  target_genome: "/datasets/data_3/genome_assemblies/liftoff_dat/Col-CEN_v1.2.fasta"
   query_genome_name: "TAIR10"
-  target_genome_name: "Col-HiFi"
-  target_fai: "data/Col-HiFi.fasta.fai"
+  target_genome_name: "Col-CEN"
+  target_fai: "/datasets/data_3/genome_assemblies/liftoff_dat/Col-CEN_v1.2.fasta.fai"
 TSV:
   binSize: 100000
   binName: "100kb"
